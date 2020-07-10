@@ -41,7 +41,7 @@ The map of **Westeros** is defined in **text_files/mapGOT.txt** and is interpret
 
 `<Letter>,<Name>,<$>,<army_size>,<points>`
 
-As the heroes travel to different locations on the map, they acquire more money and influence, as well as increase the size of their armies. The heroes take control of every place they visit, which brings them points (as well as stat bonuses) in the game. Controlling a `water` location is worth **1 point** and garners a hero 20 unites of *money* and 10 units of *influence*. A `land` location is worth **2 points** and garners a hero 20 units of *money* and 10 units of both *army* and *influence*. Controlling a city is worth between **5** and **35** points (along with defined stat bonuses). If a hero controlled the entire map, the total number of points would be **1600 points**:
+As the heroes travel to different locations on the map, they acquire more money and influence, as well as increase the size of their armies. The heroes take control of every place they visit, which brings them points (as well as stat bonuses) in the game. Controlling a `water` location is worth **1 point** and garners a hero **20** units of *money* and **10** units of *influence*. A `land` location is worth **2 points** and garners a hero **20** units of *money* and **10** units of both *army* and *influence*. Controlling a city is worth between **5** and **35** points (along with defined stat bonuses). If a hero controlled the entire map, the total number of points would be **1600 points**:
   
   * 800 points for controlling all `land` tiles
   * 484 points for controlling all `water` tiles
