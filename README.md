@@ -21,10 +21,10 @@ Daenerys Targaryen,100,1000,50,NULL,NULL,NULL,NULL,18,16,no
 
 * At the beginning of the game, each hero has at their disposal a starting sum of money and an army of knights, which they will use to find and defeat the other heroes.
 * Each hero also has avalue for `influence`.This metric speaks about each hero’s ability to build support for their cause. Having a high influence helps a hero strengthen their faction by winning new warriors on their side.
-* Each hero has a starting location on the map, represented by an integer row-column pair:`<r>,<c>`.These are referenced relative to the upper-left corner. For example, **JonSnow** starts at row 4, column 5, which corresponds to the tile marked `A` on the map which, according to the file **text_files/citiesGOT.txt**, is the city of Castle Black.
+* Each hero has a starting location on the map, represented by an integer row-column pair:`<r>,<c>`.These are referenced relative to the upper-left corner. For example, **Jon Snow** starts at row 4, column 5, which corresponds to the tile marked `A` on the map which, according to the file **text_files/citiesGOT.txt**, is the city of Castle Black.
 * Heroes can have between as few as 0 and as many as 4 warriors. Some heroes start with warriors, while others do not. The warriors who start with a hero are represented by names in the <w1> and <w2> spots. As the game progresses, heroes may acquire other warriors, filling up slots <w1> through <w4> sequentially. A value of *NULL* means that warrior slot for that hero is empty. *Jon Snow* is both a hero and a warrior.
 * The ship characteristic of each hero refers to their ability to move to *water* locations on the map. Only the hero *Euron Greyjoy* starts with a ship. No other heroes will have the ability to move onto *water* locations unless they acquire a warrior with a ship. Hero *Stannis Baratheon* starts with *Davos Seaworth* as one of his warriors. Since **Davos Seaworth** has a ship, **Stannis Baratheon** also has the ability to move to *water* locations.
-* The first five heroes start on the same continent, while the last hero **DaenerysTargaryen** starts alone on another continent.
+* The first five heroes start on the same continent, while the last hero **Daenerys Targaryen** starts alone on another continent.
 
 ### Warriors
 
@@ -35,6 +35,17 @@ There are 14 Warriors in the game, each possessing several characteristics. The 
 * <strength>, <loyalty>, and <morale> are *integer* valued characteristics, each provide different advantages to whichever hero has a given warrior in their army
 * <free>, <ship>, and <has_dragonglass> are *bool* valued characteristics which define whether a given warrior is free, has ability to travel on water, or posses dragonglass, respectively.
 * Having a warrior who possesses *dragonglass* will greatly increase a hero's chance of defeating the White Walkers in the final battle of the game. As each hero (and their warriors) travel the map, they can discover *dragonglass* and equip one of their warriors with it. The only warrior that starts the game with *dragonglass* is **Samwell Tarly**
+  
+### Map
+The map of **Westeros** is defined in **text_files/mapGOT.txt** and is interpreted as a 2D array with 35 rows and 26 columns. There are a total of 910 tiles on the map and each tile represented by letter where a `p` indicates a land tile, a `w` indicates a water tile, and a capital letter indicates a city. There are `400` land tiles, `484` water tiles, and `26` cities. Each city provides unique benefits to whichever hero visits and controls it. The cities of **Westeros** are defined in **text_files/citiesGOT.txt** in the following format:
+
+`<Letter>,<Name>,<$>,<army_size>,<points>`
+
+As the heroes travel to different locations on the map, they acquire more money and influence, as well as increase the size of their armies. The heroes take control of every place they visit, which brings them points (as well as stat bonuses) in the game. Controlling a `water` location is worth **1 point** and garners a hero 20 unites of *money* and 10 units of *influence*. A `land` location is worth **2 points** and garners a hero 20 units of *money* and 10 units of both *army* and *influence*. Controlling a city is worth between **5** and **35** points (along with defined stat bonuses). If a hero controlled the entire map, the total number of points would be **1600 points**:
+  
+  * 800 points for controlling all `land` tiles
+  * 484 points for controlling all `water` tiles
+  * 316 points for controlling all cities
 
 
 
