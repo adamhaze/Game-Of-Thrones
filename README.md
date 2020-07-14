@@ -47,5 +47,11 @@ As the heroes travel to different locations on the map, they acquire more money 
   * 484 points for controlling all `water` tiles
   * 316 points for controlling all cities
 
+## Playing the Game of Thrones
+At the beginning of the game the user can choose to play as one of the six pre-loaded heroes, or the can choose to create their own hero in which the game prompts the user to assign statistics and locations of their created hero (a user created hero starts with no warriors).
 
+Before each turn, the user is presented with a breakdown of their current ratings as well as the ratings of each of their warriors. The user is also presented with an 11 by 11 area of the map centered on the main hero's location, denoted with `@`. Land tiles are displayed with the symbol `*` and water tiles with the symbol `~` while cities are denoted by a capital letter.
+
+Each turn the user has 3 choices of what to do:
+* **Travel** North, South, East or West
 
