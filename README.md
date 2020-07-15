@@ -53,5 +53,15 @@ At the beginning of the game the user can choose to play as one of the six pre-l
 Before each turn, the user is presented with a breakdown of their current ratings as well as the ratings of each of their warriors. The user is also presented with an 11 by 11 area of the map centered on the main hero's location, denoted with `@`. Land tiles are displayed with the symbol `*` and water tiles with the symbol `~` while cities are denoted by a capital letter.
 
 Each turn the user has 3 choices of what to do:
-* **Travel** North, South, East or West
+* **Travel** 
+  * User is asked in which direction they wish to move 1 tile: North, South, East or West
+  * If user does not have a ship, they cannot travel to a water tile
+  * If user chooses to travel, they cannot stay in the same place
+* **Rest**
+  * User's hero remains in same location
+  * Each warrior in the hero's party increases their strength by 5
+* **Consult the Gods**
+  * User's hero remains in same location
+  * Each warrior in the hero's party increases their morale by 5
+  
 
