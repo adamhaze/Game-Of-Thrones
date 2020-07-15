@@ -65,3 +65,10 @@ Each turn the user has 3 choices of what to do:
   * Each warrior in the hero's party increases their morale by 5
   
 
+After the user's hero has completed their turn, all the non-user hero's and free warriors will randomly move 1 tile (Note: non-user characters will move 1 tile each turn).
+
+### Encounters
+After each character's locations have been updated, it is time to resolve all encounters. An encounter happens when a hero is within 2 tiles, in any direction, of another hero. If the user's hero encounters another hero they have 3 options:
+* **Give a Speech**: the user's hero relies on their *influence* to win over the other hero's army. The probability of the user's hero winning the encounter is higher/lower depending on the *morale* of the first warrior in the opposing hero's party.
+  * if the user's hero **wins**:
+    * the losing hero retires
