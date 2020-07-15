@@ -71,4 +71,43 @@ After the user's hero has completed their turn, all the non-user hero's and free
 After each character's locations have been updated, it is time to resolve all encounters. An encounter happens when a hero is within 2 tiles, in any direction, of another hero. If the user's hero encounters another hero they have 3 options:
 * **Give a Speech**: the user's hero relies on their *influence* to win over the other hero's army. The probability of the user's hero winning the encounter is higher/lower depending on the *morale* of the first warrior in the opposing hero's party.
   * if the user's hero **wins**:
-    * the losing hero retires
+    * the losing hero retires from the game
+    * the user's hero acquires all of the losing hero's:
+      * warriors (max of 4) - if the total number of warriors would exceed 4 then the user chooses which 4 warriors to keep.
+      * money
+      * influence
+      * army size
+    * the user's hero takes control of all locations currently controlled by the losing hero
+  * if the user's hero **loses**:
+    * the encounter ends
+    * the user's hero escapes
+    * the user's hero loses half their *influence* value
+* **Buy them outright**: the user's hero relies on their *money* to buy out the other hero's army. If the *loyalty* of the first warrior in the opposing hero's party is low, the probability of the user's hero winning the encounter is much higher.
+  * if the user's hero **wins**:
+    * the losing hero retires from the game
+    * the user's hero acquires all of the losing hero's:
+      * warriors (max of 4) - if the total number of warriors would exceed 4 then the user chooses which 4 warriors to keep.
+      * money
+      * influence
+      * army size
+    * the user's hero takes control of all locations currently controlled by the losing hero
+  * if the user's hero **loses**:
+    * the encounter ends
+    * the user's hero escapes
+    * the user's hero loses half their *money* value
+* **Battle** both heroes fight to the death and rely on the *strength* of their warriors and the size of their *army* to win the encounter.
+  * If either hero has no warriors, but the other hero does, then the hero with no warrior automatically loses
+  * If the user's hero has more than 1 warrior, then the user will choose which warrior will represent their hero in battle
+  * If the opposing hero has more than 1 warrior, the game randomly selects which warrior will represent them
+  * The hero with the highest value for (*army size*)x(*strength of chosen warrior*) wins the encounter
+  * if the user's hero **wins**:
+    * the losing hero retires from the game
+    * the user's hero acquires all of the losing hero's:
+      * warriors (max of 4) - if the total number of warriors would exceed 4 then the user chooses which 4 warriors to keep.
+      * money
+      * influence
+      * army size
+    * the user's hero takes control of all locations currently controlled by the losing hero
+  * if the user's hero **loses**:
+    * **the game ends!**
+  
