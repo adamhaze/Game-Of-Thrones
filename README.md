@@ -110,4 +110,21 @@ After each character's locations have been updated, it is time to resolve all en
     * the user's hero takes control of all locations currently controlled by the losing hero
   * if the user's hero **loses**:
     * **the game ends!**
+    
+    
+After the user resolves all of their encounters, the non-user heroes resolve their encounters (based on same proximity rules) by **Battle** with the same guidelines as described above in which the losing hero retires from the game.
+
+**Note**: If any hero is in proximity to any *free* roaming warriors, that hero will automatically acquire that warrior, so long as they do not already have 4 warriors in their party.
+  * If the hero already has 4 warriors in their party, the warrior continues to roam free
+  * If 2 or more heroes are in proximity with the warrior, no one will acquire the warrior that turn
+  * A warrior that gets acquired by a hero increases their *loyalty* and *morale* by 10 points each
   
+### End of Turn
+At the end of each turn their is a 30% probability that one of the following random events will occur (each event with equal likelihood):
+* **Drought**: there has been no rain for days, and because of this each warrior in your party has lost 10 points in both *morale* and *strength*
+
+* **Deserters**: this campaign is wearing on your army and some soldiers have grown restless. As a result, your hero's *army size* has decreased by 10 points, and the *loyalty* for each of the warriors in your hero's party has decreased by 10 points
+
+* **Jackpot**: your heroic cause has won the hearts of many noble and wealthy benefactors. As a result, your hero's *money* has **doubled**
+
+* **Kindness**: you have decided to shelter some refugees. As a result, your hero's *army size* has increased by 10 points as well as the *loyalty* for each one of your hero's warriors
