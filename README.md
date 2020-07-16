@@ -128,3 +128,17 @@ At the end of each turn their is a 30% probability that one of the following ran
 * **Jackpot**: your heroic cause has won the hearts of many noble and wealthy benefactors. As a result, your hero's *money* has **doubled**
 
 * **Kindness**: you have decided to shelter some refugees. As a result, your hero's *army size* has increased by 10 points as well as the *loyalty* for each one of your hero's warriors
+
+### Turn 10
+Some events are preconditioned to occur at set times, in this case turn 10 is where things get interesting. Here's what happens immediately after turn 10:
+* **Daenerys** acquires **Dragons** as her warrior.
+  * Dragons are special, mythical creatures with *strength* value 180, *loyalty* value 100, and *morale* value of 80
+  * If **Daenerys** already has 4 warriors, the **Dragons** will eat the last warrior in her party and each of their statistics will increase by 10% thanks to the tasty meal
+  * **Daenerys'** *army size* also increases by 5000
+  
+* **Stannis** gets consumed by his demons, and dies.
+  * All warriors in **Stannis'** party become free roaming warriors and are randomly placed on the map
+  
+* **Sansa** acquires warrior **Arya Stark**, regardless if **Arya** is free or already in some other hero's party
+
+* **Cersei** loses warrior **Jaime**, and he becomes a free roaming warrior
