@@ -122,6 +122,18 @@ After the user resolves all of their encounters, the non-user heroes resolve the
   * If 2 or more heroes are in proximity with the warrior, no one will acquire the warrior that turn
   * A warrior that gets acquired by a hero increases their *loyalty* and *morale* by 10 points each
   
+**Computer Encounters** happen when 2 non-user heroes come in proximity of one another, and are always settled with a **battle**.
+  * If both heroes have no warriors in their party, then the hero with the largest *army size* wins
+  * If one hero has at least one warrior, and the other hero has NO warriors, then the hero with no warriors automatically loses the battle
+  * If both heroes have at least one warrior, then each hero is randomly assigned one of their warriors to represent them in battle. The hero with the highest value for (*army size*)x(*strength of chosen warrior*) wins the battle
+  * In the case of a **tie**, each hero remains in the game but loses **half** of their *army size*
+  * In the case where one hero **loses**, the losing hero retires from the game and the winning hero acquires all of the losing hero's:
+    * warriors (max of 4).
+    * money
+    * influence
+    * army size
+  * the winning hero takes control of all locations currently controlled by the losing hero
+  
 ### End of Turn
 At the end of each turn their is a 30% probability that one of the following random events will occur (each event with equal likelihood):
 * **Drought**: there has been no rain for days, and because of this each warrior in your party has lost 10 points in both *morale* and *strength*
