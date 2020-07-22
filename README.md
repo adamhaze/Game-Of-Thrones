@@ -34,6 +34,7 @@ There are 14 Warriors in the game, each possessing several characteristics. The 
 
 `<Name>,<strength>,<loyalty>,<morale>,<free>,<ship>,<has_dragonglass>`
 
+* There are 7 free Warriors, which roam the map until they are acquired by a hero, and there are 7 warriors which start the game in another hero's party
 * `<strength>`, `<loyalty>`, and `<morale>` are *integer* valued characteristics, each provide different advantages to whichever hero has a given warrior in their army
 * `<free>`, `<ship>`, and `<has_dragonglass>` are *bool* valued characteristics which define whether a given warrior is free, has ability to travel on water, or posses dragonglass, respectively.
 * Having a warrior who possesses *dragonglass* will greatly increase a hero's chance of defeating the White Walkers in the final battle of the game. As each hero (and their warriors) travel the map, they can discover *dragonglass* and equip one of their warriors with it. The only warrior that starts the game with *dragonglass* is **Samwell Tarly**
