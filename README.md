@@ -1,5 +1,7 @@
 # Game Of Thrones
 
+**"When You Play The Game Of Thrones, You Win Or You Die"**
+
 ## Game Setup
 
 ### Heroes
