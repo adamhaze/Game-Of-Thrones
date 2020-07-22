@@ -142,3 +142,18 @@ Some events are preconditioned to occur at set times, in this case turn 10 is wh
 * **Sansa** acquires warrior **Arya Stark**, regardless if **Arya** is free or already in some other hero's party
 
 * **Cersei** loses warrior **Jaime**, and he becomes a free roaming warrior
+
+
+### End of the Game
+The game ends when either:
+
+1. The User loses a battle with another hero.
+
+2. The User fights the final battle with the *White Walkers*. If the loser wins the battle then the User wins the **Game of Thrones**, else they lose the game. Any of the following conditions will instigate the final battle:
+  * After 50 turns
+  * If the *army size* of the User meets or exceeds 20000
+  * The User controls 50% of the board
+  * The User has a score of 400 points or higher
+  * The User is the only hero left
+  
+Once one of the conditions are met, the User will be asked if they wish to go off and battle the *White Walkers*. The User can decide *against* going straight into battle, but they will only have 4 consecutive turns to postpone the fight (User can use this time to find *Dragonglass*) and on the 5th turn after conditions have been met, the User will be forced to fight.
