@@ -9,17 +9,17 @@ The user can choose to play The Game of Thrones as one of 6 provided heros, or t
 
 `<Name>,<$>,<influence>,<army_size>,<w1>,<w2>,<w3>,<w4>,<r>,<c>,<ship>`
   
-Cersei Lannister,8000,300,300,Jaime Lannister,The Mountain,NULL,NULL,16,7,no
+Cersei Lannister,8000,300,300,Jaime Lannister,The Mountain,NULL,NULL,24,10,no
 
-Stannis Baratheon,1000,100,200,Melisandre,Davos Seaworth,NULL,NULL,14,9,no
+Stannis Baratheon,1000,100,200,Melisandre,Davos Seaworth,NULL,NULL,20,12,no
 
 Jon Snow,100,50,20,Jon Snow,Samwell Tarly,NULL,NULL,4,5,no
 
-Sansa Stark,1000,100,200,Brienne of Tarth,NULL,NULL,NULL,7,5,no
+Sansa Stark,1000,100,200,Brienne of Tarth,NULL,NULL,NULL,10,5,no
 
-Euron Greyjoy,1000,50,100,NULL,NULL,NULL,NULL,13,2,yes
+Euron Greyjoy,1000,50,100,NULL,NULL,NULL,NULL,20,2,yes
 
-Daenerys Targaryen,100,1000,50,NULL,NULL,NULL,NULL,18,16,no
+Daenerys Targaryen,100,1000,50,NULL,NULL,NULL,NULL,26,23,no
 
 * At the beginning of the game, each hero has at their disposal a starting sum of money and an army of knights, which they will use to find and defeat the other heroes.
 * Each hero also has avalue for `influence`.This metric speaks about each hero’s ability to build support for their cause. Having a high influence helps a hero strengthen their faction by winning new warriors on their side.
