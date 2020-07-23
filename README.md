@@ -190,5 +190,11 @@ First, we need to make sure **text_files/heroesGOT.txt** is formatted properly. 
 
 ![test](GOT_heroes_screenshot.png)
 
-Finally, to run the game in the terminal, as long as you have a `g++` compiler you can navigate to the directory containing your code and run:
-```make```
+*Note* you must have a g++ compiler installed
+
+To compile and run the code: 
+
+In your terminal, navigate to the correct directory and type into the commandline:
+```
+make
+```
