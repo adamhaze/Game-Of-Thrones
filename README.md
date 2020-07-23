@@ -29,6 +29,12 @@ Daenerys Targaryen,100,1000,50,NULL,NULL,NULL,NULL,26,23,no
 * Heroes can have between as few as 0 and as many as 4 warriors. Some heroes start with warriors, while others do not. The warriors who start with a hero are represented by names in the <w1> and <w2> spots. As the game progresses, heroes may acquire other warriors, filling up slots <w1> through <w4> sequentially. A value of *NULL* means that warrior slot for that hero is empty. *Jon Snow* is both a hero and a warrior.
 * The ship characteristic of each hero refers to their ability to move to *water* locations on the map. Only the hero *Euron Greyjoy* starts with a ship. No other heroes will have the ability to move onto *water* locations unless they acquire a warrior with a ship. Hero *Stannis Baratheon* starts with *Davos Seaworth* as one of his warriors. Since **Davos Seaworth** has a ship, **Stannis Baratheon** also has the ability to move to *water* locations.
 * The first five heroes start on the same continent, while the last hero **Daenerys Targaryen** starts alone on another continent.
+  
+**Create your own Hero:** If the user chooses to bypass selecting one of the 6 pre-loaded heroes, then they will create their own hero to play the **Game of Thrones**.
+  * User is provided 1500 skillpoints to divide between `money`, `influence`, and `army size` with the option to acquire a ship (granting the hero the ability to travel on water) for 300 points.
+  * A User-created hero does NOT start with any warriors
+  * The User will select which row and column their hero will start the game - this is done by entering 1-based integer values for the row and column on the map (row 1 = 1, column 1 = 1)
+  * When creating your own hero, the user should thoroughly examine the map and it is recommended that they place their hero near an unoccupied city
 
 ### Warriors
 
