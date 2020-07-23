@@ -149,7 +149,7 @@ Some events are preconditioned to occur at set times, in this case turn 10 is wh
 * **Daenerys** acquires **Dragons** as her warrior.
   * Dragons are special, mythical creatures with *strength* value 180, *loyalty* value 100, and *morale* value of 80
   * If **Daenerys** already has 4 warriors, the **Dragons** will eat the last warrior in her party and each of their statistics will increase by 10% thanks to the tasty meal
-  * **Daenerys'** *army size* also increases by 5000
+  * **Daenerys'** *army size* also increases by 1000
   
 * **Stannis** gets consumed by his demons, and dies.
   * All warriors in **Stannis'** party become free roaming warriors and are randomly placed on the map
@@ -157,6 +157,8 @@ Some events are preconditioned to occur at set times, in this case turn 10 is wh
 * **Sansa** acquires warrior **Arya Stark**, regardless if **Arya** is free or already in some other hero's party
 
 * **Cersei** loses warrior **Jaime**, and he becomes a free roaming warrior
+
+* **Jon Snow's** *army size* increases by 500, and his *influence* increases by 100
 
 
 ### End of the Game
