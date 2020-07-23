@@ -2,6 +2,8 @@
 
 **"When You Play The Game Of Thrones, You Win Or You Die"**
 
+*Note*: Reference the bottom section **"Running The Code"** to execute the game properly
+
 ## Game Setup
 
 ### Heroes
@@ -176,4 +178,4 @@ The game ends when either:
 Once one of the conditions are met, the User will be asked if they wish to go off and battle the *White Walkers*. The User can decide *against* going straight into battle, but they will only have 4 consecutive turns to postpone the fight (User can use this time to find *Dragonglass*) and on the 5th turn after conditions have been met, the User will be forced to fight.
 
 ---
-### Running The Code
+## Running The Code
