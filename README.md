@@ -189,3 +189,6 @@ Once one of the conditions are met, the User will be asked if they wish to go of
 First, we need to make sure **text_files/heroesGOT.txt** is formatted properly. When a user creates their own hero, the hero's info is written to this file. Therefore, we must make sure any previously written hero's info is removed from the file, unless the user wishes to include these created heroes in the current game. If you are planning to create your own hero, then you must make sure there is one and ONLY one empty line below the last hero in **text_files/heroesGOT.txt**. Your file should look like this:
 
 ![test](GOT_heroes_screenshot.png)
+
+Finally, to run the game in the terminal, as long as you have a `g++` compiler you can navigate to the directory containing your code and run:
+``make``
