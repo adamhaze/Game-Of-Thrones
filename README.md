@@ -174,3 +174,6 @@ The game ends when either:
   * The User is the only hero left
   
 Once one of the conditions are met, the User will be asked if they wish to go off and battle the *White Walkers*. The User can decide *against* going straight into battle, but they will only have 4 consecutive turns to postpone the fight (User can use this time to find *Dragonglass*) and on the 5th turn after conditions have been met, the User will be forced to fight.
+
+---
+### Running The Code
