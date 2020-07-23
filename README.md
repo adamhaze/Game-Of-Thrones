@@ -192,9 +192,7 @@ First, we need to make sure **text_files/heroesGOT.txt** is formatted properly. 
 
 *Note* you must have a g++ compiler installed
 
-To compile and run the code: 
-
-In your terminal, navigate to the correct directory and type into the commandline:
+To compile and run the code as is, in your terminal navigate to the correct directory and in the command line type:
 ```
 make
 ```
