@@ -14,7 +14,7 @@ struct Warrior
     string name = "";
     int ratingsWarrior[3]{}; //strength,loyalty,morale
     bool boolWarrior[3]{};   //free,ship,dragonglass
-    int freeWarriorLocation[2]{};
+    int freeWarriorLocation[2]{}; 
 };
 
 struct Hero
