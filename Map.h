@@ -32,7 +32,7 @@ class Map
     private:
     string map[maprows][mapcols];
     int capture[maprows][mapcols];
-    bool dragonglass[maprows][mapcols]; 
+    bool dragonglass[maprows][mapcols];  
     
 };
 
